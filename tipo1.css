@@ -1,0 +1,8 @@
+.pepito {
+    background-color: rgb(45, 113, 141);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10%;
+    border: 5px dashed black;
+    margin: 10px;
+}

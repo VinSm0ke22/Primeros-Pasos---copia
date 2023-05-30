@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Mi primer website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <h1> Bienvenido a mi primer website </h1>
+        <div class="row">
+            <div class="column">
+                <h2> Opcion 1 </h2>
+                <p> Soy [Tu Nombre], ¡y esta es mi primera página web!</p>
+            </div>
+            <div class="column">
+                <h2> Opcion 2</h2>
+                <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+                <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a
+                    crear una base sólida en el desarrollo web front-end.</p>
+            </div>
+        </div>
+    </div>
+    <button onclick="showalert()"> has click en mi </button>
+    <script src="scrip.js"></script>
+    <div>
+        <form id="myForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="mensaje">Mensaje:</label>
+            <input type="mensaje" id="mensaje" name="mensaje">
+
+            <label for="pais">Pais:</label>
+            <select name="pais" id="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Chile">Chile</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
